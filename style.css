@@ -1,0 +1,119 @@
+body
+{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.profile
+{
+    border-radius: 50%;
+}
+#welcome
+{
+    position:absolute;
+    bottom: 0;
+    
+background: rgb(112,145,255);
+background: linear-gradient(0deg, rgba(112,145,255,1) 0%, rgba(0,255,250,1) 50%, rgba(0,255,181,1) 100%);
+display:table;
+width: 100%;
+height: 100%;
+}
+h1
+{
+    font-size: 40px;
+    font-family: fantasy; 
+    font-weight: 300;
+}
+#name
+{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2
+{
+font-size: 30px;
+font-weight: 300;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bio
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+.paralex
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.line
+{
+    height: 6px;
+    background-color: crimson;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu
+{
+    list-style: none;
+    position: fixed;
+    margin-top:9px;;
+    top: 0px;
+    width:100%;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+}
+.links
+{
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.links:hover
+{
+    font-size: 25px;
+    text-decoration:underline;
+}
+p
+{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+}
+a
+{
+    text-decoration: none;
+}
+#writings a
+{
+    text-decoration: underline !important;
+    color:hotpink  !important;
+}
+.contact1 h3
+{
+    display: inline;
+}
+#videos
+{
+    background: rgb(255,129,129);
+background: linear-gradient(0deg, rgba(255,129,129,1) 0%, rgba(238,141,255,1) 50%, rgba(138,101,255,1) 100%);
+}
+#work
+{
+    background: rgb(85,238,251);
+    background: linear-gradient(0deg, rgba(85,238,251,1) 0%, rgba(89,191,255,1) 35%, rgba(202,154,255,1) 58%, rgba(255,108,127,1) 100%);
+}
+#writings
+{
+    background: rgb(0,255,194);
+background: linear-gradient(0deg, rgba(0,255,194,1) 0%, rgba(85,238,251,1) 50%, rgba(0,179,255,1) 100%);
+}
+#contact
+{
+    background: rgb(96,0,255);
+    background: linear-gradient(0deg, rgba(96,0,255,1) 0%, rgba(85,201,251,1) 65%, rgba(0,255,194,1) 100%);
+}
